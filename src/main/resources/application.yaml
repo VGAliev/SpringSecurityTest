@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: SpringSecurityTest
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/sst_db
+    username: ftgwadmin
+    password: password
+
+    # Hibernate ddl auto (create, create-drop, validate, update)
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+    # Show SQL request
+      show-sql: true
